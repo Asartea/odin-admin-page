@@ -547,6 +547,10 @@ video {
   }
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .w-9 {
   width: 2.25rem;
 }
@@ -586,6 +590,16 @@ video {
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .p-1 {
