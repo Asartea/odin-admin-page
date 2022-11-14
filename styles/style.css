@@ -42,3 +42,14 @@
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
+
+.navbar-button {
+    padding:0px 30px;
+    color:white;
+    margin: 20px 15px 15px 15px;
+}
+
+.navbar-buttons {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
