@@ -17,6 +17,9 @@
 .main {
     grid-row: 2/ -1;
     grid-column: 2;
+    display:grid;
+    grid-template-columns: 3fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
 }
 .navbar-top {
     display:grid;
@@ -52,4 +55,12 @@
 .navbar-buttons {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.cards {
+    grid-column: 1 / 1;
+    grid-row: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
