@@ -10,6 +10,7 @@ module.exports = {
       sky: colors.sky,
       slate: colors.slate,
       gray: colors.neutral,
+      white: colors.white,
     }
   },
   plugins: [],
