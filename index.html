@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="dist/material-icons.css">
     <link rel="stylesheet" href="dist/output.css">
-    <link rel="stylesheet" href="styles/style.css">
     <title>Admin Page</title>
 </head>
 
@@ -70,14 +69,13 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar shadow-md col-start-2 col-end-5">
-            <div class="navbar-top">
-                <!-- Todo: Ensure that this is nicely vertically aligned-->
-                <div class="search">
+        <nav class="shadow-md col-start-2 col-end-7">
+            <div class="grid grid-cols-5 pt-5 pb-5 pr-3 pl-5">
+                <div class="col-start-1 col-end-4 flex justify-center items-center">
                     <span class="material-icons mr-3">search</span>
-                    <input type="text" name="search-bar" id="search-bar" class="search-bar bg-slate-200">
+                    <input type="text" name="search-bar" id="search-bar" class="bg-slate-200 rounded-xl w-10/12 pt-1 pb-1 pr-2 pl-8">
                 </div>
-                <div class="user-links">
+                <div class="user-links col-start-5 flex justify-evenly">
                     <div class="notifications">
                         <span class="material-icons mt-4">notifications</span>
                     </div>
@@ -89,13 +87,13 @@
                     </div>
                 </div>
             </div>
-            <div class="navbar-bottom">
-                <div class="welcome flex">
-                    <div class="user-picture">
+            <div class="grid grid-cols-5">
+                <div class="flex col-start-1 col-end-4">
+                    <div>
                         <img src="images/asartea-pfp.png" alt="" class="rounded-full w-12 m-2 mr-3 ml-3">
                     </div>
-                    <div class="user-welcome m-2">
-                        <div class="">
+                    <div class="m-2">
+                        <div>
                             Hi there,
                         </div>
                         <div>
@@ -103,14 +101,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="navbar-buttons">
-                    <button class="navbar-button bg-sky-600 rounded-full w-fit">
+                <div class="flex justify-evenly col-start-4 col-end-6">
+                    <button class="bg-sky-600 text-white rounded-full w-fit pr-7 pl-7 m-4 mt-5">
                         New
                     </button>
-                    <button class="navbar-button bg-sky-600 rounded-full w-fit">
+                    <button class="bg-sky-600 text-white rounded-full w-fit pr-7 pl-7 m-4 mt-5">
                         Upload
                     </button>
-                    <button class="navbar-button bg-sky-600 rounded-full w-fit">
+                    <button class="bg-sky-600 text-white rounded-full w-fit pr-7 pl-7 m-4 mt-5">
                         Share
                     </button>
                 </div>
