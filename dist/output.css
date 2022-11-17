@@ -637,6 +637,10 @@ video {
   margin: 1rem;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
 }
@@ -667,6 +671,26 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .flex {
@@ -740,6 +764,10 @@ video {
 
 .grid-rows-3 {
   grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .overflow-clip {
@@ -832,6 +860,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -846,6 +879,11 @@ video {
 
 .italic {
   font-style: italic;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-md {
